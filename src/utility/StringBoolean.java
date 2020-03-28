@@ -20,9 +20,9 @@ public class StringBoolean {
 		this.input2 = input2;
 	}
 
-	public boolean contains(String input1, String input2) {
+	public boolean Contains(String input1, String input2) {
 		boolean output = input1.contains(input2);
-		System.out.println(output);
+//		System.out.println(output);
 		return output;
 	}
 
